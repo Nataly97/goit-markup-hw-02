@@ -1,0 +1,119 @@
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+.articles-company-values>h3 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.articles-company-values>p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.banner>button {
+    background: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.banner>button:hover {
+    cursor: pointer;
+}
+.banner>h1 {
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.catalogue>h4 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.catalogue>p {
+    font-size: 16px;
+    color: #757575;
+}
+
+.link {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.location {
+    /* color: #FFFFFF; */
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.location>a {
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.location>a:hover {
+    color: #2196F3;
+}
+
+.logo {
+    color: #2196F3;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu:hover {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.our-team>h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.our-team>h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.our-team>p {
+    font-size: 16px;
+}
+
+.portfolio-filter {
+    background: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.portfolio-filter:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.social-networks>p {
+    /* color: #FFFFFF; */
+    font-size: 14px;
+}
