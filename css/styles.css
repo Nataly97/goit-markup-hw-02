@@ -6,6 +6,8 @@
     --white-color: #FFFFFF;
     --light-grey-color: #F5F4FA;
     --dark-gray-color: #757575;
+    --dark-gray-bg-color: #2F303A;
+    --light-gray-bg-color: #E5E5E5;
     --light-white-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -17,6 +19,19 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: var(--black-color);
+    background-color: var(--light-gray-bg-color);
+}
+
+footer {
+    background-color: var(--dark-gray-bg-color);
+}
+
+header {
+    background-color: var(--white-color);
+}
+
+.articles-company-values {
+    background-color: var(--white-color);
 }
 
 .articles-company-values>h3 {
@@ -29,6 +44,10 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+}
+
+.banner {
+    background-color: var(--dark-gray-bg-color);
 }
 
 .banner>button {
@@ -47,6 +66,9 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+}
+.catalogue-briefcase>article{
+    background-color: var(--white-color);
 }
 
 .catalogue>h4 {
@@ -108,6 +130,10 @@ body {
     color: var(--blue-color);
 }
 
+.our-team {
+    background-color: var(--white-color);
+}
+
 .our-team>h2 {
     font-weight: 700;
     font-size: 36px;
@@ -136,6 +162,10 @@ body {
     background-color: var(--blue-color);
     color: var(--white-color);
     cursor: pointer;
+}
+
+.services {
+    background-color: var(--white-color);
 }
 
 .social-networks>p {
